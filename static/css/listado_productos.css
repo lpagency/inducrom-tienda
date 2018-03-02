@@ -115,7 +115,7 @@ div.image-upload.part1 {
     -o-transform: scaleY(1.2);
     background: #04264e;
     text-transform: uppercase;
-    width: 244px;
+    width: 94%;
     letter-spacing: 0.3px;
 }
 
@@ -1025,6 +1025,19 @@ hr.hr-pro {
     padding-right: 0px;
 }
 
+.sub-banner-movil-menu-l{
+    padding-left: 0px;
+}
+
+.movil-productos{
+    position: relative;
+    left: 16px;
+}
+
+.sub-banner-movil-menu-r{
+    padding-right: 0px;
+}
+
 .subcateg {
     color: black;
     font-size: 13px;
@@ -1034,8 +1047,7 @@ hr.hr-pro {
     margin-right: 0px;
     display: block;
     text-align: center;
-    border: 1px solid rgba(128, 128, 128, 0.54);
-    width: 40%;
+    border: 0.5px solid rgba(128, 128, 128, 0.08);
 }
 
 .subcateg-i {
@@ -2153,11 +2165,12 @@ td.mumu-3{
 .subcateg {
     color: black;
     font-size: 15px;
-    padding: 0px 0px;
+    padding: 12px 0px;
     margin-left: 0px;
     margin-right: 0px;
     display: block;
-    width: 77%;
+    width: 100%;
+    height: 50px;
     font-weight: 600;
 }
 
@@ -2229,6 +2242,10 @@ a.subcateg:hover {
 
 
 @media (max-width: 400px){
+
+    .subcateg{
+        padding: 0px 0px;
+    }
 
 .menos {
     float: left;

@@ -24,6 +24,32 @@ div.upload input, div.image-upload input {
     overflow: hidden;
 }
 
+.sub-banner{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sub-banner-1{
+    position: relative;
+    left: -15px;
+    padding-left: 0px;
+}
+
+.sub-banner-2{
+    padding: 0px;
+}
+
+.sub-banner-3{
+    position: relative;
+    right: -15px;
+    padding-right: 0px;
+}
+
+.gre{
+    padding: 0px 0px;
+    width: 14%;
+}
+
 .producto-detalle-cotizacion{
     display: none;
 }
@@ -146,12 +172,18 @@ img.editablelink {
 }
 
 .subcateg-ban {
-    font-size: 16px;
+    font-size: 14px;
     padding: 0px 10px;
     margin-left: 2px;
     margin-right: 2px;
     display: block;
     text-align: left;
+}
+
+.banner-drop{
+    position: relative;
+    left: -40px;
+    width: 104%;
 }
 
 .t-2{
@@ -162,6 +194,11 @@ img.editablelink {
 
 .text_cap{
     font-size: 21px;
+}
+
+.prod-cont{
+    position: relative;
+    left: -18px;
 }
 
 .btn-default.cotizar.listado {
@@ -265,6 +302,19 @@ img.lugar{
        margin-bottom: -58px !important;
     }
 
+    .mobile-sub-banner{
+        margin-top: 60px !important;
+        margin-bottom: -8px !important;
+    }
+
+    .subcateg-ban {
+        font-size: 12px;
+    }
+
+    .banner-drop{
+        width: 111%;
+    }
+
     .fondo-form{
     margin-top: -83px; 
    }
@@ -288,6 +338,25 @@ img.lugar{
 }
 
 @media (max-width: 991px){
+
+.mobile-sub-banner{
+    width: 106.2%;
+}
+
+.banner-medio{
+    left: -15px;
+    position: relative !important;
+    width: 104% !important;
+    margin-top: 11px !important;
+}
+
+.banner-final{
+    position: relative;
+    left: -45px;
+    width: 106.2%;
+    margin-top: 11px !important;
+}
+
 .col-md-3.coli{
    width: 25%;
 }
@@ -382,6 +451,22 @@ img.lugar{
 
     .container {
     width: 100%;
+}
+
+.mobile-sub-banner {
+    margin-top: -30px !important;
+    width: 112.2%;
+}
+
+.sub-banner-2 {
+    padding: 0px;
+    margin-top: 32px;
+    width: 106%;
+}
+
+.banner-final{
+    margin-top: 10px !important;
+    margin-bottom: 80px !important;
 }
 
 .mobile {
@@ -591,6 +676,10 @@ img.lugar {
     cursor: pointer;
 }
 
+.mobile-sub-banner{
+    width: 113.5%;
+}
+
 }
 
 @media (max-width: 375px){
@@ -656,6 +745,10 @@ img.lugar {
     margin-bottom: 23px;
     right: 100px;
     cursor: pointer;
+}
+
+.mobile-sub-banner {
+    width: 116.2%;
 }
 
 .article-box-2 {

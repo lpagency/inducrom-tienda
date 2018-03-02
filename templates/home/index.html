@@ -327,12 +327,162 @@
       </div>
 </section>
 
+<section>
+<div class="col-md-12 sub-banner">
+  <div class="col-md-4 sub-banner-1">
+    <div class="mobile-sub-banner img-mobile" style="background:url('{{ read_image(site.name + '_productos_sub_banner_1',500) }}'); height:250px; background-size:cover;background-position:center; margin-bottom: 0px;" data-img-width="1600" data-img-height="1064" data-diff="100">
+      {% if is_admin %}
+        <div class="image-upload part1 lapiz visible-movil">
+          <label for="img_productos_sub_banner_1">
+              <img class="change-image" src="https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png" onmouseover="this.src='https://7static.loadingplay.com/static/images/f2e626ad62e2c957b3708a27e55f4b03_btn-edit-hover.png';" onmouseout="this.src='https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png'">
+          </label>
+          <input type="file" class="editableimage" image-id="{{ site.name }}_productos_sub_banner_1" name="image" id="img_productos_sub_banner_1">
+        </div>
+      {% end %}
+      <img id="{{ site.name }}_productos_sub_banner_1" src="{{ read_image(site.name + '_productos_sub_banner_1', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_productos_sub_banner_1',500) }}'" class="banner_uno_list hidden" alt="item">
+    </div>
+  </div>
+  <div class="col-md-4 sub-banner-2">
+    <div class="mobile-sub-banner banner-medio img-mobile" style="background:url('{{ read_image(site.name + '_productos_sub_banner_2',500) }}'); height:250px; background-size:cover;background-position:center; margin-bottom: 0px;" data-img-width="1600" data-img-height="1064" data-diff="100">
+      {% if is_admin %}
+        <div class="image-upload part1 lapiz visible-movil">
+          <label for="img_productos_sub_banner_2">
+              <img class="change-image" src="https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png" onmouseover="this.src='https://7static.loadingplay.com/static/images/f2e626ad62e2c957b3708a27e55f4b03_btn-edit-hover.png';" onmouseout="this.src='https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png'">
+          </label>
+          <input type="file" class="editableimage" image-id="{{ site.name }}_productos_sub_banner_2" name="image" id="img_productos_sub_banner_2">
+        </div>
+      {% end %}
+      <img id="{{ site.name }}_productos_sub_banner_2" src="{{ read_image(site.name + '_productos_sub_banner_2', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_productos_sub_banner_2',500) }}'" class="banner_uno_list hidden" alt="item">
+    </div>
+  </div>
+  <div class="col-md-4 sub-banner-3">
+    <div class="mobile-sub-banner banner-final img-mobile" style="background:url('{{ read_image(site.name + '_productos_sub_banner_3',500) }}'); height:250px; background-size:cover;background-position:center; margin-bottom: 0px;" data-img-width="1600" data-img-height="1064" data-diff="100">
+      {% if is_admin %}
+        <div class="image-upload part1 lapiz visible-movil">
+          <label for="img_productos_sub_banner_3">
+              <img class="change-image" src="https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png" onmouseover="this.src='https://7static.loadingplay.com/static/images/f2e626ad62e2c957b3708a27e55f4b03_btn-edit-hover.png';" onmouseout="this.src='https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png'">
+          </label>
+          <input type="file" class="editableimage" image-id="{{ site.name }}_productos_sub_banner_3" name="image" id="img_productos_sub_banner_3">
+        </div>
+      {% end %}
+      <img id="{{ site.name }}_productos_sub_banner_3" src="{{ read_image(site.name + '_productos_sub_banner_3', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_productos_sub_banner_3',500) }}'" class="banner_uno_list hidden" alt="item">
+    </div>
+  </div>
+</div>
+</section>
+
+
 <div class="container">
-<div class="" style="height:100px;display:block;margin:auto auto 0 auto;"></div>
-<section> 
+<section class="hidden-sm hidden-xs"> 
   <div class="container">
-  <div class="col-md-6 col-sm-6 col-xs-12">
-    <div class="texto-header-pro buscaCat"> Home | Tienda</div>
+    <div class="col-md-12 banner-drop">
+      <div class="dropdown col-md-1 col-sm-12 col-xs-12 gre">
+        <button id="control_de_acceso" class="btn azul btn-primary dropdown-toggle subcateg-ban mbtm5 index" type="button" data-toggle="dropdown" tag="control_de_acceso" sub2="Control de acceso" sub="Control de acceso">Control de acceso
+        <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+        <ul class="dropdown-menu">
+          <li><a id="inteligente" class="azul mbtm5 scrollUp subcateg" tag="inteligente" sub2="control de acceso inteligente" sub=" Control de acceso | Inteligente">Inteligente</a></li>
+          <li><a id="mecanico" class="azul mbtm5 scrollUp subcateg" tag="mecanico" sub2="control de acceso mecánico" sub=" Control de acceso | Mecánico">Mecánico</a></li>
+          <li><a id="filas" class="azul mbtm5 scrollUp subcateg" tag="filas" sub2="Separador de filas" sub=" Control de acceso | Separador de filas">Separador de filas</a></li>
+          <li><a id="letreros" class="azul mbtm5 scrollUp subcateg" tag="letreros" sub2="portaletreros" sub=" Control de acceso | Portaletreros">Portaletreros</a></li>
+          <li><a id="otros_acceso" class="azul mbtm5 scrollUp subcateg" tag="otros_acceso" sub2="otros para control de acceso" sub=" Control de acceso | Otros para control de acceso">Otros para control de acceso</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown col-md-1 col-sm-12 col-xs-12 gre">
+        <button id="productos_ecologicos" class="btn verde btn-primary dropdown-toggle subcateg-ban mbtm5 index" type="button" data-toggle="dropdown" tag="productos_ecologicos" sub2="Productos Ecologicos" sub="Productos Ecologicos">Productos Ecologicos
+        <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+        <ul class="dropdown-menu">
+          <li><a id="basurero" class="verde mbtm5 scrollUp subcateg" tag="basurero_ecologico" sub2="basureros" sub=" Productos Ecologicos | Basureros">Basureros</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown col-md-1 col-sm-12 col-xs-12 gre">
+        <button id="mobiliario_urbano" class="btn amarillo btn-primary dropdown-toggle subcateg-ban mbtm5 index" type="button" data-toggle="dropdown" tag="mobiliario_urbano" sub2="Mobiliario urbano" sub="Mobiliario urbano">Mobiliario Urbano
+        <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+        <ul class="dropdown-menu">
+          <li><a id="basureros" class="amarillo mbtm5 scrollUp subcateg" tag="basureros" sub2="basureros" sub=" Mobiliario Urbano | Basureros">Basureros</a></li>
+          <li><a id="banqueta" class="amarillo mbtm5 scrollUp subcateg" tag="banqueta" sub2="Banquetas/Escaños" sub=" Mobiliario Urbano | Banquetas/Escaños">Banquetas/Escaños</a></li>
+          <li><a id="bicicleteros" class="amarillo mbtm5 scrollUp subcateg" tag="bicicleteros" sub2="Bicicleteros" sub=" Mobiliario Urbano | Bicicleteros">Bicecleteros</a></li>
+          <li><a id="letreros" class="amarillo mbtm5 scrollUp subcateg" tag="letreros" sub2="portaletreros" sub=" Control de acceso | Portaletreros">Portaletreros</a></li>
+          <li><a id="refugio_bici" class="amarillo mbtm5 scrollUp subcateg" tag="refugio_bici" sub2="Refugios para bicicletas" sub=" Mobiliario Urbano | Refugios para bicicletas">Refugios para bicicletas</a></li>
+        </ul>
+      </div>
+      
+      <div class="dropdown col-md-1 col-sm-12 col-xs-12 gre">
+        <button id="espacios_publicos" class="btn naranjo btn-primary dropdown-toggle subcateg-ban mbtm5 index" type="button" data-toggle="dropdown" tag="espacios_publicos" sub2="Espacios publicos" sub="Espacios Publicos">Espacios Publicos
+        <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+        <ul class="dropdown-menu">
+          <li><a id="pape_ceni" class="naranjo mbtm5 scrollUp subcateg" tag="pape_ceni" sub2="papeleros ceniceros" sub=" Espacios Publicos | Papeleros Ceniceros">Papeleros Ceniceros</a></li>
+          <li><a id="pape_ofi" class="naranjo mbtm5 scrollUp subcateg" tag="pape_ofi" sub2="Papeleros Oficina" sub=" Espacios Publicos | Papeleros Oficina">Papeleros Oficina</a></li>
+          <li><a id="pape_pendu" class="naranjo mbtm5 scrollUp subcateg" tag="pape_pendu" sub2="Papeleros Tapa Pendulo" sub=" Espacios Publicos | Papeleros Tapa Pendulo">Papeleros Tapa Pendulo</a></li>
+          <li><a id="letreros" class="naranjo mbtm5 scrollUp subcateg" tag="letreros" sub2="portaletreros" sub=" Control de acceso | Portaletreros">Portaletreros</a></li>
+          <li><a id="pape_pedal" class="naranjo mbtm5 scrollUp subcateg" tag="pape_pedal" sub2="papeleros tapa pedal" sub=" Espacios Publicos | Papeleros Tapa Pedal">Papeleros Tapa Pedal</a></li>
+          <li><a id="cenicero" class="naranjo mbtm5 scrollUp subcateg" tag="cenicero" sub2="Ceniceros" sub=" Espacios Publicos | Ceniceros">Ceniceros</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown col-md-1 col-sm-12 col-xs-12 gre">
+        <button id="productos_especiales" class="btn rojo btn-primary dropdown-toggle subcateg-ban mbtm5 index" type="button" data-toggle="dropdown" tag="productos_especiales" sub2="Productos Especiales" sub="Productos Especiales">Productos Especiales
+        <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+        <ul class="dropdown-menu">
+          <li><a id="especiales" class="rojo mbtm5 scrollUp subcateg" tag="especiales" sub2="Productos Especiales" sub=" Productos Especiales | Productos Especiales">Productos Especiales</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown col-md-1 col-sm-12 col-xs-12 gre">
+        <button id="productos_nuevos" class="btn gris btn-primary dropdown-toggle subcateg-ban mbtm5 index" type="button" data-toggle="dropdown" tag="productos_nuevos" sub2="Productos Nuevos" sub="Productos Nuevos">Productos Nuevos
+        <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+        <ul class="dropdown-menu">
+          <li><a id="prod_nuevos" class="gris mbtm5 scrollUp subcateg" tag="prod_nuevos" sub2="Productos Nuevos" sub=" Productos Nuevos | Productos Nuevos">Productos Nuevos</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown col-md-1 col-sm-12 col-xs-12 gre">
+        <button id="todos" class="btn gris btn-primary dropdown-toggle subcateg-ban mbtm5 index" type="button" data-toggle="dropdown" tag="" sub2="Todos Los Productos" sub="Todos Los Productos">Todos
+        <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  <div class="col-md-12 col-sm-6 col-xs-12">
+    <!-- <div class="col-md-12">
+      <div class="col-md-4">
+        <div>
+          <i class="fa fa-caret-right categ hidden" aria-hidden="true"></i>
+          <a href="#" id="control_de_acceso" class="mgt-10 azul subcateg-ban mbtm5 index" tag="control_de_acceso" role="button" sub="Control de acceso">Control de acceso</a>
+        </div>
+        <div>
+          <i class="fa fa-caret-right hidden" aria-hidden="true"></i>
+          <a href="#" id="filas" class="azul subcateg partes mbtm5 scrollUp" tag="filas" role="button" sub=" Control de acceso | Separador de filas" sub2="Separador de filas">Separador de filas</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div>
+          <i class="fa fa-caret-right categ hidden" aria-hidden="true"></i>
+          <a href="#" id="mobiliario_urbano" class="mgt-10 amarillo subcateg-ban mbtm5 index" tag="mobiliario_urbano" role="button" sub="Mobiliario urbano">Mobiliario urbano</a>
+        </div>
+        <div>
+          <i class="fa fa-caret-right hidden" aria-hidden="true"></i>
+          <a href="#" id="basureros" class="amarillo subcateg partes mbtm5 scrollUp" tag="basureros" role="button" sub=" Mobiliario urbano | Basureros" sub2="Basureros">Basureros</a>
+        </div>
+        <div>
+          <i class="fa fa-caret-right hidden" aria-hidden="true"></i>
+          <a href="#" id="banqueta" class="amarillo subcateg partes mbtm5 scrollUp" tag="banqueta" role="button" sub=" Moviliario urbano | Banquetas/Escaños" sub2="Banquetas/Escaños">Banquetas/Escaños</a>
+        </div>
+        <div>
+          <i class="fa fa-caret-right hidden" aria-hidden="true"></i>
+          <a href="#" id="bicicleteros" class="amarillo subcateg partes mbtm5 scrollUp" tag="bicicleteros" role="button" sub=" Moviliario urbano | Bicicleteros" sub2="Bicicleteros">Bicicleteros</a>
+        </div>
+        <div>
+          <i class="fa fa-caret-right hidden" aria-hidden="true"></i>
+          <a href="#" id="refugio_bici" class="amarillo subcateg partes mbtm5 scrollUp" tag="refugio_bici" role="button" sub=" Moviliario urbano | Refugios para bicicletas" sub2="Refugios para bicicletas">Refugios para bicicletas</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div>
+          <i class="fa fa-caret-right categ hidden" aria-hidden="true"></i>
+          <a href="#" id="todos" class="mgt-10 subcateg mbtm5 index scrollUp" tag="" role="button" sub2="todos los productos" sub="Todos los productos">Todos los productos</a>
+        </div>
+      </div>
+    </div> -->
   </div>
   <div class="hidden-xs hidden-sm visible-lg visible-md">
     <div class="texto-header-pro-2 tituloCategoria"></div>
@@ -343,42 +493,6 @@
 
 
   <section class="h_submenu  visible-lg visible-md hidden-xs hidden-sm">
-        <div align="center">
-          <div class="container-fluid col-md-3 col-sm-12 col-xs-12 mtl text-center" style="padding-top: 1em; margin-bottom: 100px;position: relative;top: 18px; padding-bottom: 22px;">
-            <div>
-              <i class="fa fa-caret-right categ hidden" aria-hidden="true"></i>
-              <a href="#" id="control_de_acceso" class="mgt-10 azul subcateg-ban mbtm5 index" tag="control_de_acceso" role="button" sub="Control de acceso">Control de acceso</a>
-            </div>
-            <div>
-              <i class="fa fa-caret-right hidden" aria-hidden="true"></i>
-              <a href="#" id="filas" class="azul subcateg partes mbtm5 scrollUp" tag="filas" role="button" sub=" Control de acceso | Separador de filas" sub2="Separador de filas">Separador de filas</a>
-            </div>
-            <div>
-              <i class="fa fa-caret-right categ hidden" aria-hidden="true"></i>
-              <a href="#" id="mobiliario_urbano" class="mgt-10 amarillo subcateg-ban mbtm5 index" tag="mobiliario_urbano" role="button" sub="Mobiliario urbano">Mobiliario urbano</a>
-            </div>
-            <div>
-              <i class="fa fa-caret-right hidden" aria-hidden="true"></i>
-              <a href="#" id="basureros" class="amarillo subcateg partes mbtm5 scrollUp" tag="basureros" role="button" sub=" Mobiliario urbano | Basureros" sub2="Basureros">Basureros</a>
-            </div>
-            <div>
-              <i class="fa fa-caret-right hidden" aria-hidden="true"></i>
-              <a href="#" id="banqueta" class="amarillo subcateg partes mbtm5 scrollUp" tag="banqueta" role="button" sub=" Moviliario urbano | Banquetas/Escaños" sub2="Banquetas/Escaños">Banquetas/Escaños</a>
-            </div>
-            <div>
-              <i class="fa fa-caret-right hidden" aria-hidden="true"></i>
-              <a href="#" id="bicicleteros" class="amarillo subcateg partes mbtm5 scrollUp" tag="bicicleteros" role="button" sub=" Moviliario urbano | Bicicleteros" sub2="Bicicleteros">Bicicleteros</a>
-            </div>
-            <div>
-              <i class="fa fa-caret-right hidden" aria-hidden="true"></i>
-              <a href="#" id="refugio_bici" class="amarillo subcateg partes mbtm5 scrollUp" tag="refugio_bici" role="button" sub=" Moviliario urbano | Refugios para bicicletas" sub2="Refugios para bicicletas">Refugios para bicicletas</a>
-            </div>
-            <div>
-              <i class="fa fa-caret-right categ hidden" aria-hidden="true"></i>
-              <a href="#" id="todos" class="mgt-10 subcateg mbtm5 index scrollUp" tag="" role="button" sub2="todos los productos" sub="Todos los productos">Todos los productos</a>
-            </div>
-          </div>
-        </div>
   </section>
 
 
@@ -389,21 +503,25 @@
    <section class="h_submenu hidden-md hidden-lg">
           <div class="container col-md-3 col-sm-12 col-xs-12 mtl text-center" style="padding-top: 1em; margin-bottom: 50px;">
             <div align="center">
-            <a href="#" id="control_de_acceso" class="azul subcateg mbtm5 index" tag="control_de_acceso" role="button" sub="Control de acceso">Control de acceso</a>
+            <div class="col-sm-6 col-xs-6 sub-banner-movil-menu-r"> 
+              <a href="#" id="control_de_acceso" class="azul subcateg mbtm5 index" tag="control_de_acceso" role="button" sub="Control de acceso">Control de acceso</a>
 
 
-           <!-- <a href="#" id="productos_ecologicos" class="verde subcateg mbtm5 index" tag="productos_ecologicos" role="button" sub="Productos Ecologicos">Productos ecologicos</a> -->
+              <a href="#" id="productos_ecologicos" class="verde subcateg mbtm5 index" tag="productos_ecologicos" role="button" sub="Productos Ecologicos">Productos ecologicos</a>
 
 
-            <a href="#" id="mobiliario_urbano" class="amarillo subcateg mbtm5 index" tag="mobiliario_urbano" role="button" sub="Mobiliario urbano">Mobiliario urbano</a>
+              <a href="#" id="mobiliario_urbano" class="amarillo subcateg mbtm5 index" tag="mobiliario_urbano" role="button" sub="Mobiliario urbano">Mobiliario urbano</a>
+            </div>
+            <div class="col-sm-6 col-xs-6 sub-banner-movil-menu-l">
+              <a href="#" id="espacios_publicos" class="naranjo subcateg mbtm5 index" tag="espacios_publicos" role="button" sub="Espacios publicos">Espacios publicos</a>
 
-            <!--<a href="#" id="espacios_publicos" class="naranjo subcateg mbtm5 index" tag="espacios_publicos" role="button" sub="Espacios publicos">Espacios publicos</a>
-           
-            <a href="#" id="productos_especiales" class="rojo subcateg mbtm5 index" tag="productos_especiales" role="button" sub="productos especiales">Productos especiales</a>
-          
+              <a href="#" id="productos_especiales" class="rojo subcateg mbtm5 index" tag="productos_especiales" role="button" sub="productos especiales">Productos especiales</a>
 
-            <a href="#" id="productos_nuevos" class="gris subcateg mbtm5 index" tag="productos_nuevos" role="button" sub="productos nuevos">Productos nuevos</a> -->
-                <a href="#" id="todos" class="subcateg mbtm5 index" tag="" role="button" sub="todos los productos">Todos los productos</a>
+              <a href="#" id="productos_nuevos" class="gris subcateg mbtm5 index" tag="productos_nuevos" role="button" sub="productos nuevos">Productos nuevos</a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+              <a href="#" id="todos" class="subcateg mbtm5 index" tag="" role="button" sub="todos los productos">Todos los productos</a>
+            </div>
                 <!--<button type="button" product-id="{{! id }}" product-name="{{! name }}" product-price="{{! main_price }}" product-upp="{{! upp }}" product-img="{{! images[0]['thumb_200'] }}" class="add-to-cart btn btn-default cotizar listado" id="open-cart" onclick="window.location.href='{{ site_base }}/detalle_cotizacion'">COTIZAR</button> -->
           
           </div>
@@ -413,11 +531,11 @@
 
 <section class="nov">
    <div class="container">
-           <div align="center" class="to"> 
+           <div align="center"> 
             <div class="hidden-lg hidden-md visible-xs visible-sm">
               <div class="texto-header-pro-2 tituloCategoria"></div>
             </div>
-            <div class="col-md-8 col-md-offset-1">
+            <div class="col-md-12 prod-cont">
             <section class="banners">
               <div class="control_de_acceso ban hidden">
                 <div class="col-md-4 col-sm-4 col-xs-6">
@@ -494,7 +612,7 @@
                 </div>
               </div>
             </section>
-              <div class="products">
+              <div class="products movil-productos">
                   <div class="spinner">
                     <div class="rect1"></div>
                     <div class="rect2"></div>
